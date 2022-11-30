@@ -53,5 +53,13 @@ sudo apt install openfortivpn
 > ```shell
 > source ~/.bashrc
 > ```
-
+<br>
 5. Now just run the `vpn-linux` command in the terminal and the connection will start.
+<br>
+<br>
+6. In some cases, it is necessary to remove the following lines:
+
+> ```shell
+> set-dns = 1
+>pppd-use-peerdns = 1
+> ```
